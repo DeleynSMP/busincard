@@ -1,0 +1,25 @@
+body{
+    background-color: black;
+
+}
+.Example1 {
+    color: white; font-family: 'Courier New', Courier, monospace;
+
+
+}
+#namecard{
+    float: left;
+    #NumberOfDays{
+    color:green;
+ }
+     margin-right: 20px;
+     
+     
+}
+#NameandHob{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#WorkExp{
+    margin-top: 3px;
+}

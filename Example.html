@@ -5,31 +5,37 @@
     <title>DocForExample</title>
   </head>
   <body>
-    <div class="Example1" title="hello">
-     <table border="1" cellspacing="9">
-      <tr>
-        <td>
-         <img src="https://i.pinimg.com/736x/59/54/6c/59546c6b6f2dbe382259abf410faa4be.jpg"
-         alt="Персонаж из сезонов L" width="180"/>
-        </td>
-        <td>
-          <h1>Платон Чаленко</h1>
-          <p>Будущий FrontEnd разработчик</p>
-          <p>Учу программирование на протяжении <strong>2 дней</strong></p>
-        </td>
-      </tr>
-       
-       
-     </table>
-       <hr/>
-       <h2>Связаться со мной</h2>
-       <ul>
+   <div class="Example1" title="hello">
+    <header>
+       <table border="1" cellspacing="9" id="namecard">
+         <tr>
+          <td>
+           <img src="https://i.pinimg.com/736x/59/54/6c/59546c6b6f2dbe382259abf410faa4be.jpg"
+           alt="Джон Дейви Харрис" width="180"/>
+          </td>
+          <td id="NameandHob">
+           <h1>Платон Чаленко</h1>
+           <p>Будущий FrontEnd разработчик</p>
+           <p>Учу фронтенд направление. <br> кол-во дней <strong id="NumberOfDays">4 дней</strong></p>
+          </td>
+         </tr>
+       </table>
+    
+
+      
+     <h1>Мои увлечения</h1>
+     <hr/>
+     <h2>Связаться со мной</h2>
+     <ul>
        <li><a href="https://t.me/Kotyara_9">Телеграмм</a></li>
      </ul>
-
+     <br>
+    </header>
+    <footer> 
      <hr/>
-     <h2>Опыт работы</h2>
-     <table border="1" cellspacing="2">
+     
+     <table border="1" cellspacing="2" id="WorkExp">
+      <h2>Опыт работы</h2>
        <tr>
          <th>Компания</th>
          <th>Должность</th>
@@ -53,11 +59,13 @@
         <input type="submit">
      </form>
      <br/>
-     <p>карточка в основном делалась по приколу и практики**</p>
+     <p>
+       карточка в основном делалась по приколу и практики**
+       <br>
+       все будет добавляться по мере изучения
+     </p>
     </div>
-   <style>
-     body {background-color: black;}
-     .Example1 {color: white; font-family: 'Courier New', Courier, monospace;}
-   </style>
+   </footer>
+   <link rel="stylesheet" href="example.css">
   </body>
 </html>
